@@ -82,7 +82,7 @@
                         setTimeout(function(){const t=document.createElement('script');t.src='https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js';document.head.appendChild(t);});
                         </script>
                         <span class="fa-stack fa-4x">
-                        <div class="chatElement"></div>
+                       
                         </span>
                         
                         
@@ -109,9 +109,11 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                             <h4>Cristian Basanta</h4>
                             <p class="text-muted">Developer</p>
+                            <div class="chatElement"></div>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        
                         </div>
                     </div>
                     <div class="col-lg-4">
