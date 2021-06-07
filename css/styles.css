@@ -10956,14 +10956,14 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: #000;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: auto auto;
+  background-size: 100% 100%;
   opacity: 0.6;
-}
+  }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
