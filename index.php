@@ -16,7 +16,19 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-       
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "7de74f70-6bf3-40bf-90a9-d2b6f73531b5", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "5f315828-90e0-4a72-a079-7510afe29988", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 
 
     <body id="page-top">
@@ -54,33 +66,7 @@
                     </div>
                     <div class="col-md-4">
                         
-                        <style>
-                        .chatElement {
-                            height: 350px;
-                            width: 100%;
-                        }
-                        </style>
-                            
-                        <script>
-                        const element = document.querySelector('.chatElement');
-                        window.watsonAssistantChatOptions = {
-                            integrationID: "7de74f70-6bf3-40bf-90a9-d2b6f73531b5", // The ID of this integration.
-                            region: "us-south", // The region your integration is hosted in.
-                            serviceInstanceID: "5f315828-90e0-4a72-a079-7510afe29988", 
-                            // Provide the custom element.
-                            element: element,
-                            // Hide the close button since we want it always open.
-                            hideCloseButton: true,
-                            // Hide the default launcher.
-                            showLauncher: false,
-                            // Make the window open by default.
-                            openChatByDefault: true,
-                            onLoad: function(instance) {
-                            instance.render();
-                            }
-                        };
-                        setTimeout(function(){const t=document.createElement('script');t.src='https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js';document.head.appendChild(t);});
-                        </script>
+                        
                         <span class="fa-stack fa-4x">
                        
                         </span>
@@ -109,7 +95,6 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                             <h4>Cristian Basanta</h4>
                             <p class="text-muted">Developer</p>
-                            <div class="chatElement"></div>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
