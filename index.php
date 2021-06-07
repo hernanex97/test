@@ -42,8 +42,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome to the best Friends chatbot!</div>
-                <div class="masthead-heading text-uppercase">¿Estas preparado?</div>
+                <div class="masthead-subheading .text-light">Welcome to the best Friends chatbot!</div>
+                <div class="masthead-heading text-uppercase .text-light">¿Estas preparado?</div>
             </div>
         </header>
        
